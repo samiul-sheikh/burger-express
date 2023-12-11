@@ -1,8 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Kenia&family=Nunito:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&family=Poppins&family=Rubik+Microbe&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+/* body {
+  color: white;
+  background-color: burlywood;  
+  letter-spacing: 0.05em;
+  font-family: DM Sans, sans-serif;
+  @apply text-whiteColor bg-primaryColor tracking-wider font-dmsans
+} */
+
+@layer base{
+  body{
+    @apply text-whiteColor bg-primaryColor tracking-wider font-dmsans
+  }
+
+}
+
+
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -24,4 +48,4 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */
