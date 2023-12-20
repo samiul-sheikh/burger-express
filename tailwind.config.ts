@@ -36,14 +36,14 @@ const config: Config = {
         oswald: ["Oswald", "sans-serif"],
         dmsans: ["DM Sans", "sans-serif"],
       },
-      // keyframes: {
-      //   move: {
-      //     "50%": { transform: "translateY(-1rem)" },
-      //   },
-      // },
-      // animation: {
-      //   movingY: "move 2s linear infinite",
-      // },
+      keyframes: {
+        move: {
+          "50%": { transform: "translateY(-1rem)" },
+        },
+      },
+      animation: {
+        movingY: "move 2s linear infinite",
+      },
     },
   },
   plugins: [],
