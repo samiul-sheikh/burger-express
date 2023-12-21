@@ -23,7 +23,7 @@ export default function Navbar() {
         </div>
 
         <div
-          className="absolute top-0 left-0 w-full py-14 border-b bg-slate-400 border-secondaryColor
+          className="absolute top-0 left-0 w-full py-14 border-b bg-primaryColor border-secondaryColor
             md:block md:static md:py-0 md:border-none md:w-auto md:ml-auto"
         >
           <ul className="flex flex-col text-center gap-5 md:flex-row">

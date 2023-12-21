@@ -1,4 +1,3 @@
-import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { FaEnvira, FaUtensils } from "react-icons/fa";
@@ -23,8 +22,7 @@ export default function Hero() {
           <p className="paragraph">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo
             accusantium, nostrum necessitatibus ullam eos laborum pariatur
-            suscipit assumenda nulla cum impedit neque, consequuntur veritatis
-            praesentium. Provident nisi sed itaque aperiam.
+            suscipit assumenda nulla.
           </p>
           <div className="text-base flex items-center justify-center gap-4 py-10 md:justify-start md:gap-20">
             <div className="text-center">
